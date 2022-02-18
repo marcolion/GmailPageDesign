@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+input {
+    margin-top: -7px;
+    height: 22px;
+}
+
+h4 {
+    text-align: center;
+}
+
+select {
+    height: 22px;
+    align-content: center;
+    font-size: 12px;
+}
+
+label {
+    font-size: 14px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(235, 235, 235);
+    height: auto;
+    width: 100vw;
+}
+
+span {
+    color: blue;
+    cursor: pointer;
+}
+
+.container {
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.img-bt {
+    margin-bottom: 50px;
+}
+
+.container-fluid {
+    height: 45px;
+}
+
+.pos-right {
+    font-size: 14px;
+    padding-bottom: 50px;
+}
+
+.d-flex {
+    justify-content: end;
+    padding-bottom: 10px;
+}
+.leftcol {
+    text-align: center;
+}
+
+.myrow {
+    margin-top: -2%;
+    background-color: rgb(235, 235, 235);
+}
+
+.robot {
+    width: 100%;
+}
+
+.sel-mg {
+    margin-top: -2%;
+}
+
+::placeholder {
+    text-align: right;
+    font-size: 13px;
+}
+
+.card-img-top {
+    width: 45%;
+    align-content: center;
+}
+
+.logo {
+    width: 120px;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.footer-bottom {
+    background: rgb(235, 235, 235);
+    width: 100vw;
+    padding: 10px 10px 10px;
+    text-align: center;
+}
+.footer-bottom p {
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    cursor: pointer;
+    word-spacing: 5px;
+}
+
+.footer-menu {
+    float: right;
+}
+
+.row-bottom {
+    background-color: white;
+}
+
+#gender {
+    width: 100%;
+}
+
+#location {
+    width: 100%;
+}
+
+#months {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#day {
+    margin-bottom: 15px;
+}
+
+#fName {
+    text-align: left;
+}
+
+#mPhone::placeholder {
+    text-align: left;
+    font-size: 13px;
+}
